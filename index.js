@@ -1,4 +1,4 @@
-const { GPIO } = require('onoff');
+const GPIO = require('onoff').Gpio;
 const LED = new GPIO(4,'out');
 let interval;
 
